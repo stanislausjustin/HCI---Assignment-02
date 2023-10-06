@@ -1,0 +1,28 @@
+@keyframes change-color {
+    0% {
+      box-shadow: 0 0 50px rgba(66, 133, 244); /* Start with a shadow */
+    }
+    50% {
+      box-shadow: 0 0 50px rgba(219, 68, 55); /* Increase the shadow size */
+    }
+    100% {
+      box-shadow: 0 0 50px rgba(15, 157, 88); /* Return to the original shadow */
+    }
+  }
+  
+  /* Apply the animation to the fieldset element */
+  fieldset {
+    animation: change-color 4s infinite; /* Apply the 'change-color' animation infinitely */
+  }
+
+ table{
+    color: antiquewhite;
+    font-size: large;
+    margin: 30px auto; 
+ }
+
+ table tr th, table tr td {
+    padding: 10px;
+ }
+ 
+   
